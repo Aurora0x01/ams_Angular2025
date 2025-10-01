@@ -11,4 +11,9 @@ export class HomeComponent {
 universityName: string = "Sesame University";
 students: string[]= ["alice", "bob", "charlie", "david"];
 nbrOfStudents: number = 26;
+srcLogo: string = "link image";
+
+display(){
+  alert("Hello World!");
+}
 }
