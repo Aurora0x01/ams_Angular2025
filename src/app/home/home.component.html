@@ -1,1 +1,9 @@
 <h2 align="center">hello angular !</h2>
+<h3>university:{{universityName}}</h3>
+<p>Nbre étidiants : {{nbrOfStudents}}</p>
+
+<ul>
+  <li *ngFor="let student of students">
+   {{student | beginWithUpper}}
+  </li>
+</ul>
